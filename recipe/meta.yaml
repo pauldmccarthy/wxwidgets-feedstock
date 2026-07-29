@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/wxWidgets/wxWidgets/releases/download/v{{ version }}/wxWidgets-{{ version }}.tar.bz2
-  sha256: 0f7cec37b22ec5719805849716254cbb2d943f59
+  sha256: 81b09d6dd9f1ed9301f8c55a968a488d0491f264dc2bab19a7e407ac67009482
   patches:
     # Without this patch, the cross compiled libraries get a host_suffix
     # which we do not want for conda-forge packages
